@@ -1,0 +1,12 @@
+{
+  "model": "ThinkPad P1 Gen 7",
+  "ports": {
+    "usb_a": "USB-A",
+    "usb_c": "Thunderbolt 4 / USB-C",
+    "hdmi": "HDMI"
+  },
+  "features": {
+    "wireless": "Wi-Fi and Bluetooth",
+    "camera": "Integrated camera"
+  }
+}

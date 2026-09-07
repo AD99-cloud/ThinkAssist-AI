@@ -1,0 +1,404 @@
+{
+  "summary": {
+    "total_tests": 15,
+    "top_1_retrieval_accuracy": 0.733,
+    "top_3_retrieval_accuracy": 0.8
+  },
+  "results": [
+    {
+      "question": "Can I replace the built-in battery myself?",
+      "expected_document": "thinkpad_p1_g7_userguide.pdf",
+      "expected_pages": [
+        54,
+        55,
+        56
+      ],
+      "top_1_hit": true,
+      "top_3_hit": true,
+      "retrieved": [
+        {
+          "document": "thinkpad_p1_g7_userguide.pdf",
+          "page": 54,
+          "distance": 0.9924
+        },
+        {
+          "document": "thinkpad_p1_g7_userguide.pdf",
+          "page": 55,
+          "distance": 1.0663
+        },
+        {
+          "document": "thinkpad_p1_g7_userguide.pdf",
+          "page": 52,
+          "distance": 1.0277
+        }
+      ]
+    },
+    {
+      "question": "What should I do before replacing a customer replaceable unit?",
+      "expected_document": "thinkpad_p1_g7_userguide.pdf",
+      "expected_pages": [
+        52
+      ],
+      "top_1_hit": false,
+      "top_3_hit": false,
+      "retrieved": [
+        {
+          "document": "thinkpad_p1_g7_userguide.pdf",
+          "page": 51,
+          "distance": 0.9535
+        },
+        {
+          "document": "thinkpad_p1_g7_warranty_guide.pdf",
+          "page": 3,
+          "distance": 1.2141
+        },
+        {
+          "document": "thinkpad_p1_g7_userguide.pdf",
+          "page": 55,
+          "distance": 1.2303
+        }
+      ]
+    },
+    {
+      "question": "What are Customer Replaceable Units or CRUs?",
+      "expected_document": "thinkpad_p1_g7_userguide.pdf",
+      "expected_pages": [
+        51
+      ],
+      "top_1_hit": true,
+      "top_3_hit": true,
+      "retrieved": [
+        {
+          "document": "thinkpad_p1_g7_userguide.pdf",
+          "page": 51,
+          "distance": 0.6989
+        },
+        {
+          "document": "thinkpad_p1_g7_warranty_guide.pdf",
+          "page": 3,
+          "distance": 1.1281
+        },
+        {
+          "document": "thinkpad_p1_g7_userguide.pdf",
+          "page": 51,
+          "distance": 1.0151
+        }
+      ]
+    },
+    {
+      "question": "How do I disable the built-in battery before replacing hardware?",
+      "expected_document": "thinkpad_p1_g7_userguide.pdf",
+      "expected_pages": [
+        52
+      ],
+      "top_1_hit": true,
+      "top_3_hit": true,
+      "retrieved": [
+        {
+          "document": "thinkpad_p1_g7_userguide.pdf",
+          "page": 52,
+          "distance": 0.8986
+        },
+        {
+          "document": "thinkpad_p1_g7_userguide.pdf",
+          "page": 55,
+          "distance": 0.9136
+        },
+        {
+          "document": "thinkpad_p1_g7_userguide.pdf",
+          "page": 52,
+          "distance": 0.6205
+        }
+      ]
+    },
+    {
+      "question": "How do I physically remove the built-in battery?",
+      "expected_document": "thinkpad_p1_g7_userguide.pdf",
+      "expected_pages": [
+        56
+      ],
+      "top_1_hit": true,
+      "top_3_hit": true,
+      "retrieved": [
+        {
+          "document": "thinkpad_p1_g7_userguide.pdf",
+          "page": 56,
+          "distance": 0.9029
+        },
+        {
+          "document": "thinkpad_p1_g7_userguide.pdf",
+          "page": 52,
+          "distance": 0.8624
+        },
+        {
+          "document": "thinkpad_p1_g7_userguide.pdf",
+          "page": 55,
+          "distance": 0.9141
+        }
+      ]
+    },
+    {
+      "question": "What safety precautions should I follow when replacing the built-in battery?",
+      "expected_document": "thinkpad_p1_g7_userguide.pdf",
+      "expected_pages": [
+        54,
+        55
+      ],
+      "top_1_hit": true,
+      "top_3_hit": true,
+      "retrieved": [
+        {
+          "document": "thinkpad_p1_g7_userguide.pdf",
+          "page": 54,
+          "distance": 0.9654
+        },
+        {
+          "document": "thinkpad_p1_g7_userguide.pdf",
+          "page": 55,
+          "distance": 0.9667
+        },
+        {
+          "document": "thinkpad_p1_g7_warranty_guide.pdf",
+          "page": 2,
+          "distance": 0.7201
+        }
+      ]
+    },
+    {
+      "question": "What happens during UEFI BIOS self-recovery?",
+      "expected_document": "thinkpad_p1_g7_userguide.pdf",
+      "expected_pages": [
+        45
+      ],
+      "top_1_hit": true,
+      "top_3_hit": true,
+      "retrieved": [
+        {
+          "document": "thinkpad_p1_g7_userguide.pdf",
+          "page": 45,
+          "distance": 0.9181
+        },
+        {
+          "document": "thinkpad_p1_g7_userguide.pdf",
+          "page": 44,
+          "distance": 0.8991
+        },
+        {
+          "document": "thinkpad_p1_g7_userguide.pdf",
+          "page": 43,
+          "distance": 1.0658
+        }
+      ]
+    },
+    {
+      "question": "What happens if I forget my NVMe password?",
+      "expected_document": "thinkpad_p1_g7_userguide.pdf",
+      "expected_pages": [
+        41
+      ],
+      "top_1_hit": true,
+      "top_3_hit": true,
+      "retrieved": [
+        {
+          "document": "thinkpad_p1_g7_userguide.pdf",
+          "page": 41,
+          "distance": 1.0307
+        },
+        {
+          "document": "thinkpad_p1_g7_userguide.pdf",
+          "page": 41,
+          "distance": 1.2025
+        },
+        {
+          "document": "thinkpad_p1_g7_userguide.pdf",
+          "page": 41,
+          "distance": 1.2826
+        }
+      ]
+    },
+    {
+      "question": "How can I restore Windows using Microsoft Connected System Recovery?",
+      "expected_document": "thinkpad_p1_g7_userguide.pdf",
+      "expected_pages": [
+        76
+      ],
+      "top_1_hit": true,
+      "top_3_hit": true,
+      "retrieved": [
+        {
+          "document": "thinkpad_p1_g7_userguide.pdf",
+          "page": 76,
+          "distance": 0.7148
+        },
+        {
+          "document": "thinkpad_p1_g7_userguide.pdf",
+          "page": 75,
+          "distance": 1.0393
+        },
+        {
+          "document": "thinkpad_p1_g7_warranty_guide.pdf",
+          "page": 2,
+          "distance": 1.0424
+        }
+      ]
+    },
+    {
+      "question": "How do I run a hardware scan on the laptop?",
+      "expected_document": "thinkpad_p1_g7_userguide.pdf",
+      "expected_pages": [
+        75
+      ],
+      "top_1_hit": true,
+      "top_3_hit": true,
+      "retrieved": [
+        {
+          "document": "thinkpad_p1_g7_userguide.pdf",
+          "page": 75,
+          "distance": 0.5654
+        },
+        {
+          "document": "thinkpad_p1_g7_userguide.pdf",
+          "page": 74,
+          "distance": 1.1715
+        },
+        {
+          "document": "thinkpad_p1_g7_userguide.pdf",
+          "page": 36,
+          "distance": 1.2159
+        }
+      ]
+    },
+    {
+      "question": "What are the safety warnings for using headphones or earphones?",
+      "expected_document": "thinkpad_p1_g7_warranty_guide.pdf",
+      "expected_pages": [
+        2,
+        3
+      ],
+      "top_1_hit": true,
+      "top_3_hit": true,
+      "retrieved": [
+        {
+          "document": "thinkpad_p1_g7_warranty_guide.pdf",
+          "page": 3,
+          "distance": 0.8375
+        },
+        {
+          "document": "thinkpad_p1_g7_warranty_guide.pdf",
+          "page": 3,
+          "distance": 0.9181
+        },
+        {
+          "document": "thinkpad_p1_g7_warranty_guide.pdf",
+          "page": 2,
+          "distance": 1.0895
+        }
+      ]
+    },
+    {
+      "question": "Where can I find Lenovo online technical support?",
+      "expected_document": "thinkpad_p1_g7_warranty_guide.pdf",
+      "expected_pages": [
+        1,
+        3
+      ],
+      "top_1_hit": true,
+      "top_3_hit": true,
+      "retrieved": [
+        {
+          "document": "thinkpad_p1_g7_warranty_guide.pdf",
+          "page": 3,
+          "distance": 0.724
+        },
+        {
+          "document": "thinkpad_p1_g7_warranty_guide.pdf",
+          "page": 3,
+          "distance": 0.7498
+        },
+        {
+          "document": "thinkpad_p1_g7_userguide.pdf",
+          "page": 76,
+          "distance": 0.7586
+        }
+      ]
+    },
+    {
+      "question": "What Lenovo support phone numbers are listed for India?",
+      "expected_document": "thinkpad_p1_g7_warranty_guide.pdf",
+      "expected_pages": [
+        4
+      ],
+      "top_1_hit": false,
+      "top_3_hit": true,
+      "retrieved": [
+        {
+          "document": "thinkpad_p1_g7_warranty_guide.pdf",
+          "page": 3,
+          "distance": 0.6684
+        },
+        {
+          "document": "thinkpad_p1_g7_warranty_guide.pdf",
+          "page": 4,
+          "distance": 0.7615
+        },
+        {
+          "document": "thinkpad_p1_g7_userguide.pdf",
+          "page": 78,
+          "distance": 0.8314
+        }
+      ]
+    },
+    {
+      "question": "What ports are available on the sides of the ThinkPad P1 Gen 7?",
+      "expected_document": "thinkpad_p1_g7_userguide.pdf",
+      "expected_pages": [
+        8
+      ],
+      "top_1_hit": false,
+      "top_3_hit": false,
+      "retrieved": [
+        {
+          "document": "thinkpad_p1_g7_setupguide.pdf",
+          "page": 1,
+          "distance": 0.6308
+        },
+        {
+          "document": "thinkpad_p1_g7_userguide.pdf",
+          "page": 1,
+          "distance": 0.6886
+        },
+        {
+          "document": "thinkpad_p1_g7_setupguide.pdf",
+          "page": 6,
+          "distance": 1.174
+        }
+      ]
+    },
+    {
+      "question": "Does the ThinkPad P1 Gen 7 have HDMI, USB-A, and Thunderbolt 4 ports?",
+      "expected_document": "thinkpad_p1_g7_setupguide.pdf",
+      "expected_pages": [
+        3
+      ],
+      "top_1_hit": false,
+      "top_3_hit": false,
+      "retrieved": [
+        {
+          "document": "thinkpad_p1_g7_setupguide.pdf",
+          "page": 1,
+          "distance": 0.8566
+        },
+        {
+          "document": "thinkpad_p1_g7_userguide.pdf",
+          "page": 1,
+          "distance": 0.9438
+        },
+        {
+          "document": "thinkpad_p1_g7_userguide.pdf",
+          "page": 8,
+          "distance": 1.2022
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "question": "Can I replace the built-in battery myself?",
+    "expected_answer_type": "document",
+    "expected_grounded": true,
+    "expected_tool": null,
+    "expected_document": "thinkpad_p1_g7_userguide.pdf"
+  },
+  {
+    "question": "What should I do if the built-in battery is defective?",
+    "expected_answer_type": "document",
+    "expected_grounded": true,
+    "expected_tool": null,
+    "expected_document": "thinkpad_p1_g7_userguide.pdf"
+  },
+  {
+    "question": "What is 20% off $250?",
+    "expected_answer_type": "tool",
+    "expected_grounded": true,
+    "expected_tool": "calculate",
+    "expected_document": null
+  },
+  {
+    "question": "A replacement battery costs $149.99. What is the price after a 15% discount?",
+    "expected_answer_type": "tool",
+    "expected_grounded": true,
+    "expected_tool": "calculate",
+    "expected_document": null
+  },
+  {
+    "question": "Does this laptop have a camera?",
+    "expected_answer_type": "tool",
+    "expected_grounded": true,
+    "expected_tool": "lookup_device_spec",
+    "expected_document": null
+  },
+  {
+    "question": "What type of HDMI port does this laptop have?",
+    "expected_answer_type": "tool",
+    "expected_grounded": true,
+    "expected_tool": "lookup_device_spec",
+    "expected_document": null
+  },
+  {
+    "question": "What is the current Lenovo stock price?",
+    "expected_answer_type": "unsupported",
+    "expected_grounded": false,
+    "expected_tool": null,
+    "expected_document": null
+  },
+  {
+    "question": "Who is the current CEO of Lenovo?",
+    "expected_answer_type": "unsupported",
+    "expected_grounded": false,
+    "expected_tool": null,
+    "expected_document": null
+  }
+]
